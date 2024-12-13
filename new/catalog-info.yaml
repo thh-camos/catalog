@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{ values.contextName }}
+  description: This is the camos Develop XY Component
+  tags:
+    - camos-develop
+  links:
+    - url: https://helpcenter.camos.de/camos-cpq365/v2.1/kontext-vertriebsprojekt-salesproject-context
+      title: camos HelpCenter
+      icon: dashboard
+      type: helpcenter
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: develop-context
+  lifecycle: production
+  owner: guests
