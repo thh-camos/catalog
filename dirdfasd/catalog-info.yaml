@@ -12,7 +12,8 @@ metadata:
     - url: https://cpqatcamos.atlassian.net/wiki/spaces/PECPQ/pages/2950785/Grobe+Kapazit+t+PE+Sprint+Release
       title: Confluence
       icon: techdocs
-    annotations:
+    
+  annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
   type: develop-context
