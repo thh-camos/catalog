@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 
+  description: This is my description
+  tags:
+    - camos-develop
+  links:
+    
+    - url: https://helpcenter.camos.de/
+      title: camos HelpCenter
+      icon: techdocs
+    
+    
+    - url: https://www.eventcatalog.dev/docs/development/plugins/backstage/intro
+      title: camos HelpCenter
+      icon: techdocs
+    
+    
+    - url: https://intranet.camos.de/intranet/camos.ADD/camos.CPQ365/SalesProject.Context/23.1/index.html
+      title: camos HelpCenter
+      icon: techdocs
+    
+    - url: https://helpcenter.camos.de/camos-cpq365/v2.1/kontext-vertriebsprojekt-salesproject-context
+      title: cadsa
+      icon: techdocs
+    
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: develop-context
+  lifecycle: production
+  owner: group:default/guests
