@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: subdir
+  description: Testbeschreibung
+  tags:
+    - camos-develop
+  links:
+    - url: https://helpcenter.camos.de/camos-cpq365/v2.1/kontext-vertriebsprojekt-salesproject-context
+      title: cadsa
+      icon: techdocs
+    - url: https://cpqatcamos.atlassian.net/wiki/spaces/PECPQ/pages/2950785/Grobe+Kapazit+t+PE+Sprint+Release
+      title: Confluence
+      icon: techdocs
+    
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: develop-context
+  lifecycle: production
+  owner: group:default/guests
