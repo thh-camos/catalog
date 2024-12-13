@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: $ {{ parameters.folderName }}
+  name: dirdfasd
   description: This is the camos Develop XY Component
   tags:
     - camos-develop
@@ -10,6 +10,8 @@ metadata:
       title: camos HelpCenter
       icon: dashboard
       type: helpcenter
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: develop-context
   lifecycle: production
