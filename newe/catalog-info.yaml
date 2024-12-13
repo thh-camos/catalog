@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: newe
+  description: This is the camos Develop XY Component
+  tags:
+    - camos-develop
+  links:
+    
+    - url: {{ link.url }}
+      title: {{ link.title }}
+      icon: techdocs
+    
+    - url: {{ link.url }}
+      title: {{ link.title }}
+      icon: techdocs
+    
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: develop-context
+  lifecycle: production
+  owner: guests
