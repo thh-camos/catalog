@@ -25,6 +25,6 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: develop-context
+  type: service
   lifecycle: production
   owner: group:default/developers
