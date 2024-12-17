@@ -27,4 +27,4 @@ metadata:
 spec:
   type: develop-context
   lifecycle: production
-  owner: group:default/guests
+  owner: group:default/developers
