@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: CPQ365
+  description: Testbeschreibung
+  tags:
+    - camos-develop
+  links:
+    - url: https://backstage.io/docs/deployment/docker/
+      title: camos HelpCenter
+      icon: help
+    
+    - url: https://www.eventcatalog.dev/docs/development/plugins/backstage/intro
+      title: Confluence
+      icon: docs
+    
+    - url: https://www.eventcatalog.dev/docs/development/plugins/backstage/intro
+      title: Automatic Develop Documentation
+      icon: techdocs
+    
+    - url: https://camossoftware.sharepoint.com/sites/Intranet?
+      title: Nützlicher Link
+      icon: search
+    
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/developers
