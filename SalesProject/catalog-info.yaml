@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: SalesProject
+  description: The context for the sales project forms the framework for the individual elements of an offer or order. Both the sales project and the individual stations along the way of a sales process are part of this domain.   These sales documents are the individual stages of the process. Here, offers, orders and also a budget offer can be added to the process of a sales project as standard. An extension with other elements is easily possible.   The combination of sales project and sales document are the criteria for all other parts such as configuration, price calculation and printing. It forms the connecting element for the process.  The sales project is an automatically generated context with MDSD.
+  tags:
+    - camos-develop
+  links:
+    - url: https://helpcenter.camos.de/camos-cpq365/v2.1/kontext-vertriebsprojekt-salesproject-context
+      title: camos HelpCenter
+      icon: help
+    
+    
+    - url: https://intranet.camos.de/intranet/camos.ADD/camos.CPQ365/SalesProject.Context/23.1/index.html
+      title: Automatic Develop Documentation
+      icon: techdocs
+    
+    
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/developers
