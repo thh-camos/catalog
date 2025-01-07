@@ -15,7 +15,9 @@ metadata:
     - url: https://cpqatcamos.atlassian.net/wiki/spaces/BER/pages/13075402/SalesProject+Kontext
       title: Customizing Cheat Sheets
       icon: help
-    
+    - url: https://intranet.camos.de/intranet/cpq365/docs/domains/SalesProj_SalesProject/26.0.0/
+      title: EventCatalog
+      icon: techdochs
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
