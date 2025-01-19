@@ -23,4 +23,4 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: group:default/developers
+  owner: group:default/product-team
